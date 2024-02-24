@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+
+}
+body{
+    background: url(cam.jpg);
+    backdrop-filter: blur(2px);
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-size: cover;
+    background-position: center;    
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 5px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: normal;
+    background-color: maroon;
+    padding: auto;
+    
+}
+header .logo{
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navigation{
+    display: flex;
+    align-items: center ;
+    margin-left: auto;
+}
+header .navigation{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 20px 25px;
+    border-radius: 20px;
+}
+.navigation a{
+    color: white;
+    background: maroon;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    border-radius: 20px;    
+
+}
+.navigation a:not(:last-child){
+    margin-right: 30px;
+}
+.navigation a:hover{
+    background: burlywood;
+}
+.content{
+    max-width: 650px;
+    margin: 0px 100px;
+    font-size: large;
+    text-align: center;
+    margin: 130px auto 0;
+}
+.lh{
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    
+}
+.sp1{
+    color: maroon;
+    font-weight: 600;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: white;
+
+}
+.info-btn{
+    color:white;
+    background: maroon;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.info-btn:hover{
+    background: burlywood;
+
+}
+.footer-title{
+    color: white;
+    
+        
+}
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.media-icons a{
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+.media-icons a:not(:last-child){
+    margin-right: 40px;
+}
+.media-icons a:hover{
+    transform: scale(1.5);
+}
+.products {
+    display: flex;
+    margin-right: 50px;
+    padding-left: 80px;
+    padding-top: 50px;
+
+    
+}
+
+.service-container {
+    flex: 0 0 auto; 
+    width: 300px; 
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-right: 50px; 
+    text-align: center;
+    border: 2px solid ghostwhite;
+    background-color: solid black blur(2px);
+    height: 600px;
+}
+
+.service-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 4px solid black;
+}
+.products h3{
+    color: red;
+}
+.service-title{
+    color: white;
+    padding-left: 500px;
+    padding-top: 100px;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+.book-btn{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: maroon;
+    color: white;
+    border: 2px solid maroon;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.book-btn:hover{
+    background-color: wheat;
+    color: maroon;
+}
+.footer{
+    background-color: black;
+    margin-top: 100 px;
+
+}
+.footer-title{
+    padding-left: 700px;
+    padding-top: 50px;
+    margin-bottom: -80px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 15px;
+}
